@@ -3,6 +3,8 @@
 // @homepage::bandcamp.com
 // @version::1.0
 
+var data = {'user':{'type'='str','value'=''},'pass':{'type'='str','value'=''}};
+
 function search(query, page){
     var songs = JsUtil.newList();
 
