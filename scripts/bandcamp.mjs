@@ -3,7 +3,7 @@
 // @homepage::bandcamp.com
 // @version::1.0
 
-var data = {'info':{'type':'msg','value':'This is an example script for mul! Script providers can customize this page and even get user data input. Below is an example user input'},'Api Key:':{'type':'str','value':''}};
+var data = {'info':{'type':'msg','value':'This is an example script for mul! Script providers can customize this SOURCE SETUP PAGE and even get user data input just like the example below.'},'Api Key:':{'type':'str','value':'this is just an example'}};
 
 function search(query, page){
     var songs = JsUtil.newList();
