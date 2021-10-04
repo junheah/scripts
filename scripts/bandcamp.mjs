@@ -1,9 +1,9 @@
 // @name::bandcamp
-// @author::me
+// @author::mul
 // @homepage::bandcamp.com
 // @version::1.0
 
-var data = {'user':{'type':'str','value':''},'pass':{'type':'str','value':''}};
+var data = {'info':{'type':'msg','value':'This is an example script for mul! Script providers can customize this page and even get user data input. Below is an example user input'},'Api Key:':{'type':'str','value':''}};
 
 function search(query, page){
     var songs = JsUtil.newList();
